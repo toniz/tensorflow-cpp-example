@@ -18,7 +18,7 @@ ___
 
 --- 
 
-#GCC < 5.4.0 && GLIBC < 2.23
+# GCC < 5.4.0 && GLIBC < 2.23
 
 ## Insall GCC 5.4.0
     sudo yum install libmpc-devel mpfr-devel gmp-devel
