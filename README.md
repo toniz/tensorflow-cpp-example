@@ -3,20 +3,23 @@
 tensorflow cpp compile example. Using tensorflow.so. can run without install tensorflow.
 ___
 
-# Compile Requirement
+## Compile Requirement
   tensorflow.so is building in GCC5.4.0 and glibc-2.23
 * need GCC >=5.4.0
 * need GLIBC >= 2.23
 
-# Compile
+## Compile
 * g++ -std=c++11 -Iinclude -Llib test.cpp -ltensorflow_cc -o exec
 * g++ -std=c++11 -Iinclude -Llib label_image.cc -ltensorflow_cc -o label_image
 
-# Run
+## Run
 ![图片](/doc/01.jpg)
 
 
 --- 
+
+#GCC < 5.4.0 && GLIBC < 2.23
+
 ## Insall GCC 5.4.0
     sudo yum install libmpc-devel mpfr-devel gmp-devel
     sudo yum install zlib-devel*
