@@ -1,0 +1,34 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ClientSession	client_session.cc	/^ClientSession::ClientSession(const Scope& scope) : ClientSession(scope, "") {}$/;"	f	class:tensorflow::ClientSession
+ClientSession	client_session.cc	/^ClientSession::ClientSession(const Scope& scope, const string& target)$/;"	f	class:tensorflow::ClientSession
+ClientSession	client_session.cc	/^ClientSession::ClientSession(const Scope& scope,$/;"	f	class:tensorflow::ClientSession
+ClientSession	client_session.h	/^class ClientSession {$/;"	c	namespace:tensorflow
+FeedType	client_session.h	/^  typedef std::unordered_map<Output, Input::Initializer, OutputHash> FeedType;$/;"	t	class:tensorflow::ClientSession
+Impl	client_session.cc	/^  Impl(Session* session, std::shared_ptr<Graph> graph)$/;"	f	class:tensorflow::ClientSession::Impl	file:
+Impl	client_session.cc	/^class ClientSession::Impl {$/;"	c	class:tensorflow::ClientSession	file:
+MakeDefaultSessionOptions	client_session.cc	/^SessionOptions ClientSession::Impl::MakeDefaultSessionOptions($/;"	f	class:tensorflow::ClientSession::Impl
+MaybeExtendGraph	client_session.cc	/^Status ClientSession::Impl::MaybeExtendGraph() const {$/;"	f	class:tensorflow::ClientSession::Impl
+Run	client_session.cc	/^Status ClientSession::Run(const FeedType& inputs,$/;"	f	class:tensorflow::ClientSession
+Run	client_session.cc	/^Status ClientSession::Run(const RunOptions& run_options, const FeedType& inputs,$/;"	f	class:tensorflow::ClientSession
+Run	client_session.cc	/^Status ClientSession::Run(const std::vector<Output>& fetch_outputs,$/;"	f	class:tensorflow::ClientSession
+TENSORFLOW_CC_CLIENT_CLIENT_SESSION_H_	client_session.h	17;"	d
+TEST	client_session_test.cc	/^TEST(ClientSessionTest, Basic) {$/;"	f	namespace:tensorflow
+TEST	client_session_test.cc	/^TEST(ClientSessionTest, Extend) {$/;"	f	namespace:tensorflow
+TEST	client_session_test.cc	/^TEST(ClientSessionTest, Feed) {$/;"	f	namespace:tensorflow
+TEST	client_session_test.cc	/^TEST(ClientSessionTest, MultiThreaded) {$/;"	f	namespace:tensorflow
+graph_	client_session.cc	/^  std::shared_ptr<Graph> graph_;$/;"	m	class:tensorflow::ClientSession::Impl	file:
+impl	client_session.h	/^  Impl* impl() { return impl_.get(); }$/;"	f	class:tensorflow::ClientSession
+impl	client_session.h	/^  const Impl* impl() const { return impl_.get(); }$/;"	f	class:tensorflow::ClientSession
+impl_	client_session.h	/^  std::unique_ptr<Impl> impl_;$/;"	m	class:tensorflow::ClientSession
+mu_	client_session.cc	/^  mutable int last_num_graph_nodes_ GUARDED_BY(mu_) = 0;$/;"	m	class:tensorflow::ClientSession::Impl	file:
+mu_	client_session.cc	/^  mutable mutex mu_;$/;"	m	class:tensorflow::ClientSession::Impl	file:
+session_	client_session.cc	/^  std::unique_ptr<Session> session_;$/;"	m	class:tensorflow::ClientSession::Impl	file:
+tensorflow	client_session.cc	/^namespace tensorflow {$/;"	n	file:
+tensorflow	client_session.h	/^namespace tensorflow {$/;"	n
+tensorflow	client_session_test.cc	/^namespace tensorflow {$/;"	n	file:
+~ClientSession	client_session.cc	/^ClientSession::~ClientSession() {}$/;"	f	class:tensorflow::ClientSession
